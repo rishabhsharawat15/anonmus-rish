@@ -55,6 +55,9 @@ function NavBar() {
           <span></span>
           <span></span>
         </Navbar.Toggle>
+
+        {/* collapase wala part */}
+
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
@@ -65,25 +68,8 @@ function NavBar() {
                     behavior: 'smooth'
                   });
                 updateExpanded(false);
-          }}>
+                 }}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
-              </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => {
-               window.scrollTo({
-                    top: 0,
-                    left: 0,
-                    behavior: 'smooth'
-                  });
-                updateExpanded(false);
-          }}>
-              
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
 
@@ -111,14 +97,30 @@ function NavBar() {
                 as={Link}
                 to="/resume"
                 onClick={() => {
-               window.scrollTo({
+                  window.scrollTo({
+                    top: 0,
+                    left: 0,
+                    behavior: 'smooth'
+                  });
+                  updateExpanded(false);
+                 }}>
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/about"
+                onClick={() => {
+                window.scrollTo({
                     top: 0,
                     left: 0,
                     behavior: 'smooth'
                   });
                 updateExpanded(false);
-          }}>
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                }}>
+              
+              <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
           </Nav>
