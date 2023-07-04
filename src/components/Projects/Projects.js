@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import keeper from "../../Assets/Projects/keeper.jpeg";
-import motiondetector from "../../Assets/Projects/motiondetector.jpeg"
-import editor from "../../Assets/Projects/codeEditor.png";
+import motiondetector from "../../Assets/Projects/motiondetector.jpeg";
+import INNEED from "../../Assets/Projects/INNEED.jpeg";
 import chatify from "../../Assets/Projects/chatify.png";
 import mytodo from "../../Assets/Projects/mytodo.jpeg";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import duty from "../../Assets/Projects/duty.jpeg";
 
 function Projects() {
   return (
@@ -34,23 +34,21 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={duty}
               isBlog={false}
               title="DUTY MUNSHI"
               description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              ghLink="https://github.com/rishabhsharawat15/DUTY-MUNSHI-JS/tree/master"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={INNEED}
               isBlog={false}
               title="IN NEED"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              description="INNEED is an ecommerce website that aims to provide products to people in need at the lowest cost possible. They achieve this by selling products that are close to their expiration date but have not yet expired. By doing so, INNEED reduces food waste and offers affordable options to consumers."
+              ghLink="https://github.com/rishabhsharawat15/INNEED"
             />
           </Col>
 
@@ -80,11 +78,9 @@ function Projects() {
               title="TO DO APP"
               description="To-do app is used to enhance productivity and efficiency by providing a centralized platform for capturing, organizing, and completing tasks.made todo using python/rect/ejs"
               ghLink="https://github.com/rishabhsharawat15/My-todo"
-              demoLink =" https://rishabhsharawat15-my-todo-web-stzzj2.streamlit.app/"
-             
+              demoLink=" https://rishabhsharawat15-my-todo-web-stzzj2.streamlit.app/"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>
