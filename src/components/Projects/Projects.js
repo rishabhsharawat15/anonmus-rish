@@ -37,7 +37,7 @@ function Projects() {
               imgPath={duty}
               isBlog={false}
               title="DUTY MUNSHI"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="The major objective behind building this web app is to make life of officer easy.Can easily check all the officer working in the region by simply selecting the regionIt will help them to see all the thana in their region.An interface to schedule themselves without depending on munshi and middle man to schedule their duty"
               ghLink="https://github.com/rishabhsharawat15/DUTY-MUNSHI-JS/tree/master"
             />
           </Col>
