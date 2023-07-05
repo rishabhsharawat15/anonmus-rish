@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="Chatbot (currently working)"
               description="This Python-based chatbot is a versatile and interactive conversational AI system designed to facilitate seamless communication with users. Built using natural language processing techniques, the chatbot leverages an intent file to adapt its responses to different user inputs. This intent file acts as a repository, containing predefined user intents and corresponding responses, enabling the chatbot to accurately comprehend user queries and provide contextually relevant answers"
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              ghLink="https://github.com/rishabhsharawat15/chatbot"
               //deomolink
             />
           </Col>
