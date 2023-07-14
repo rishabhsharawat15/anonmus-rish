@@ -26,20 +26,18 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={"https://drive.google.com/file/d/16FWb1p57QJZWfFG5NpbA0Pj3Inwuqd3m/view"}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Drive link
           </Button>
         </Row>
-         <center>
-        <a href="https://drive.google.com/file/d/16FWb1p57QJZWfFG5NpbA0Pj3Inwuqd3m/view">google drive link !</a>
-            </center>   
+        
         <Row className="resume">
           <Document file={resumeLink} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={1,2} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
 
