@@ -23,15 +23,15 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+       <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={"https://drive.google.com/file/d/16FWb1p57QJZWfFG5NpbA0Pj3Inwuqd3m/view"}
+            href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Drive link
+            &nbsp;Download CV
           </Button>
         </Row>
         
