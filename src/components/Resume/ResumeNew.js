@@ -23,7 +23,7 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Row style={{ justifyContent:"center", position: "relative" }}>
           <Button
             variant="primary"
             href={"https://drive.google.com/file/d/19aJtUR7wvyzs3hNbZJniUPgvgmlTadng/view"}
