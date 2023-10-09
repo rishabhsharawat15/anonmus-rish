@@ -26,7 +26,7 @@ function ResumeNew() {
         <Row style={{ justifyContent:"center", position: "relative" }}>
           <Button
             variant="primary"
-            href={"https://drive.google.com/file/d/12M00zoPChFRmLv1QFAx2h2JPY-2SXXjM/view"}
+            href={"https://drive.google.com/file/d/1CsK3Rjfb7HUD5EpWybMk5bPfijHp2WeA/view"}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
